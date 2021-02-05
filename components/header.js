@@ -4,7 +4,11 @@ import Menu from "./menu";
 export default function Header(){
     return(
         <div>
-            <h2>Header Component</h2>
+             <button className="burger-btn">
+                <span></span>
+                <span className="second-span"></span>
+                <span></span>
+            </button>
             <Menu />
         </div>
     )
