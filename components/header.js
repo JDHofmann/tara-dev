@@ -53,31 +53,26 @@ export default class Header extends React.Component{
 
                     .burger-btn span:nth-child(1) {
                         top: 0;
-                        transition: .65s;
-
-                    }
-
-                    .burger-btn span:nth-child(3) {
-                        bottom: 0;
-                        transition: .65s;
                     }
 
                     .burger-btn span:nth-child(2) {
                         width: 3vmax;
                         max-width: 27px;
-                        transition: 1s;
                         left: 0;
                         top: 1.7vmax;
                     }
-                    
-                    .burger-btn-active span:nth-child(2) {
-                        position: absolute;
-                        left: -100px;
+
+                    .burger-btn span:nth-child(3) {
+                        bottom: 0;
                     }
 
                     .burger-btn-active span:nth-child(1){
                         transform: rotate(0.125turn);
                         top: 1.7vmax;
+                    }
+
+                    .burger-btn-active span:nth-child(2) {
+                        left: -100px;
                     }
                     
                     .burger-btn-active span:nth-child(3){
