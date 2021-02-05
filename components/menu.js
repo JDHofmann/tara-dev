@@ -34,7 +34,7 @@ export default function Menu(props){
                 }
                 
                 nav ul {
-                    min-width: 300px;
+                    min-width: 275px;
                     width: 60vw;
                     max-width: 600px;
                     margin: 5vh auto;
