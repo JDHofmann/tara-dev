@@ -9,6 +9,7 @@ export default function Footer(){
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    width: 100%;
                 }
                 p {
                     background: inherit;

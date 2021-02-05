@@ -23,7 +23,7 @@ export default class Header extends React.Component{
                     <span className="second-span"></span>
                     <span></span>
                 </button>
-                <Menu />
+                <Menu active={this.state.menuOpen? "true" : "false"}/>
                 <style jsx>{`
                     .burger-btn {
                         height: 4.1vmax;

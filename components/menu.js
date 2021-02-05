@@ -1,8 +1,10 @@
 import Link from 'next/link'
 
-export default function Menu(){
+export default function Menu(props){
     return(
-        <nav className="nav-hidden">
+        <nav 
+            
+            className={props.active === "true"? "nav" : "nav-hidden"}>
             <ul>
                 <li>
                     <Link href="/">
