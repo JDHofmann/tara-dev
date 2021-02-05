@@ -26,8 +26,8 @@ export default class Header extends React.Component{
                 <Menu />
                 <style jsx>{`
                     .burger-btn {
-                        height: 4vmax;
-                        width: 4vmax;
+                        height: 4.1vmax;
+                        width: 4.1vmax;
                         max-height: 35px;
                         margin: 2vmax;
                         padding: 0;
@@ -41,9 +41,9 @@ export default class Header extends React.Component{
                     
                     .burger-btn span {
                         display: block;
-                        width: 4vmax;
+                        width: 4.1vmax;
                         max-width: 35px;
-                        height: .65vmax;
+                        height: .7vmax;
                         max-height: 5px;
                         background: #ff40ff;
                         border-radius: 2px;
@@ -67,7 +67,7 @@ export default class Header extends React.Component{
                         max-width: 27px;
                         transition: 1s;
                         left: 0;
-                        top: 1.75vmax;
+                        top: 1.7vmax;
                     }
                     
                     .burger-btn-active span:nth-child(2) {
@@ -77,12 +77,12 @@ export default class Header extends React.Component{
 
                     .burger-btn-active span:nth-child(1){
                         transform: rotate(0.125turn);
-                        top: 1.6vmax;
+                        top: 1.7vmax;
                     }
                     
                     .burger-btn-active span:nth-child(3){
                         transform: rotate(-0.125turn);
-                        bottom: 1.75vmax;
+                        bottom: 1.7vmax;
                     }
                 `}</style>
             </div>
