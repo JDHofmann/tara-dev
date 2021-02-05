@@ -1,9 +1,9 @@
 import Layout from "../components/layout";
 
-export default function About(){
+export default function Make() {
     return(
         <Layout>
-            <h1>about</h1>
+            <h1>make</h1>
         </Layout>
     )
 }
