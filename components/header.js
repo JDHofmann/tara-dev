@@ -27,14 +27,12 @@ export default class Header extends React.Component{
                 <style jsx>{`
                     .burger-btn {
                         height: 4vmax;
+                        width: 4vmax;
                         max-height: 35px;
                         margin: 2vmax;
                         padding: 0;
-                        background: none;
                         border: none;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
+                        position: relative;
                     }
                     
                     .burger-btn-active {
@@ -50,25 +48,41 @@ export default class Header extends React.Component{
                         background: #ff40ff;
                         border-radius: 2px;
                         transition: .65s;
-                    
+                        position: absolute;
                     }
-                    
+
+                    .burger-btn span:nth-child(1) {
+                        top: 0;
+                        transition: .65s;
+
+                    }
+
+                    .burger-btn span:nth-child(3) {
+                        bottom: 0;
+                        transition: .65s;
+                    }
+
                     .burger-btn span:nth-child(2) {
                         width: 3vmax;
                         max-width: 27px;
-                    }
-                    
-                    .burger-btn-active span:nth-child(1){
-                        transform: rotate(0.125turn);
+                        transition: 1s;
+                        left: 0;
+                        top: 1.75vmax;
                     }
                     
                     .burger-btn-active span:nth-child(2) {
-                        display: none;
+                        position: absolute;
+                        left: -100px;
+                    }
+
+                    .burger-btn-active span:nth-child(1){
+                        transform: rotate(0.125turn);
+                        top: 1.6vmax;
                     }
                     
                     .burger-btn-active span:nth-child(3){
                         transform: rotate(-0.125turn);
-                        margin-top: -.65vmax;
+                        bottom: 1.75vmax;
                     }
                 `}</style>
             </div>
