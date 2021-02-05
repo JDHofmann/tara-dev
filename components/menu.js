@@ -21,10 +21,10 @@ export default function Menu(props){
                 nav {
                     background: #262626a0;
                     position: fixed;
-                    top: 8vmax;
+                    top: 75px;
                     left: 0;
                     width: 100%;
-                    height: calc(100% - 6vmax);
+                    height: calc(100% - 75px);
                     transition: 1s;
                     z-index: 300;
                 }

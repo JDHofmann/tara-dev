@@ -4,7 +4,7 @@ export default function Footer(){
             <p>Made with love by JDBH</p>
             <style jsx>{`
                 footer {
-                    height: 8vmax;
+                    height: 75px;
                     background: #ff40ff;
                     display: flex;
                     justify-content: center;

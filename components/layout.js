@@ -10,6 +10,12 @@ export default function Layout({children})
                 {children}
             </div>
             <Footer />
+            <style jsx>{`
+                div {
+                    min-height: calc(100vh - 150px);
+                    padding: 0 20px;
+                }
+            `}</style>
         </>
     )
 }
