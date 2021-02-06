@@ -65,10 +65,10 @@ export default function Menu(props){
                 nav ul li {
                     list-style-type: none;
                     text-align: center;
-                    margin: 3vh auto;
-                    font-size: 4vmax;
-                    letter-spacing: .5vmax;
-                    text-indent: .5vmax;
+                    margin: 1.5vh auto;
+                    font-size: 4vmin;
+                    letter-spacing: .5vmin;
+                    text-indent: .5vmin;
                     width: 100%;
                 }
                 
@@ -77,9 +77,19 @@ export default function Menu(props){
                     text-decoration: none;
                     color: inherit;
                     color: #ffffff;
+                    margin: 1px;
                 }
-                .menu-link:hover, .menu-link:focus {
-                    text-decoration: underline;
+                .menu-link::after {
+                    content: '';
+                    width: 0px;
+                    height: 1px;
+                    display: block;
+                    background: #ffffff;
+                    transition: .3s;
+                }
+                  
+                .menu-link:hover::after, .menu-link :focus::after {
+                    width: 100%;
                 }
             `}</style>
         </nav>

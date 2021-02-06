@@ -20,6 +20,9 @@ export default function Layout({children})
                 .main {
                     min-height: calc(100vh - 150px);
                     padding: 0 20px;
+                    width: 100%;
+                    max-width: 1000px;
+                    margin: 0 auto;
                 }
                 .sig {
                     text-align: center;

@@ -79,13 +79,40 @@ export default function Write() {
             </ul>
             {/* blog nested here */}
             <style jsx>{`
-                li {
+                .platform-item h2 {
+                    color: #f0f0f0;
+                    font-weight: 500;
+                    padding: .5em 0;
+                    font-family: 'Playfair Display', serif;
+                    font-family: 'Lexend Mega', sans-serif;
+                    font-family: 'Spartan', sans-serif;
+                }
+                .platform-item h2::after {
+                    content: " - ";
+                }
+                .article-item {
                     color: #f0f0f0;
                     font-weight: 200;
+                    text-align: right;
                 }
-                p {
-                    font-weight: 200;
+                .article-item a {
+                    display: inline-block;
+                    padding: .5em 0;
+                    margin-bottom: 5px;
                 }
+                .article-item a::after {
+                    content: '';
+                    width: 0px;
+                    height: 1px;
+                    display: block;
+                    background: #f0f0f0;
+                    transition: 300ms;
+                }
+                  
+                .article-item a:hover::after, .article-item a:focus::after {
+                    width: 100%;
+                }
+                
             `}</style>
         </Layout>
     )
