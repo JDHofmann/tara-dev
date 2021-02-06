@@ -1,4 +1,4 @@
-// import Head from 'next/head'
+// import '../public/tararainbow'
 
 import Layout from "../components/layout";
 
@@ -7,9 +7,16 @@ export default function Home() {
     <Layout>
       <h1>home</h1>
       <p>Signature bigger on this page</p>
-      <p>Signature here</p>
-      <p>photo of Tara here Rainbow photo</p>
-      <p>This is the about page</p>
+      <img className="bio-pic" src="/tararainbow.jpeg"></img>
+      <p>about section</p>
+      <style jsx>{`
+        .bio-pic {
+          width: 100%;
+          display: block;
+          max-width: 500px;
+          margin: 2vh auto;
+        }
+      `}</style>
     </Layout>
   )
 }
