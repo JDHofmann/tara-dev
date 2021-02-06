@@ -11,7 +11,8 @@ export default function Layout({children})
             <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Playfair+Display:wght@400;600&family=Questrial&family=Spartan:wght@200;400;600&display=swap" rel="stylesheet"></link>
             </Head>
             <Header />
-            <div className="sig">Signature</div>
+            <img className="sig" src="/signature.png"></img>
+
             <div className="main">
                 {children}
             </div>
@@ -25,9 +26,10 @@ export default function Layout({children})
                     margin: 0 auto;
                 }
                 .sig {
-                    text-align: center;
-                    width: 100%;
-                    font-size: 5vmin;
+                    display: block;
+                    width: 50%;
+                    min-width: 300px;
+                    margin: 0 auto;
                     padding: 2.5vmin 0;
                 }
             `}</style>

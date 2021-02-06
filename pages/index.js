@@ -5,9 +5,9 @@ import Layout from "../components/layout";
 export default function Home() {
   return (
     <Layout>
-      <h1>home</h1>
-      <p>Signature bigger on this page</p>
       <img className="bio-pic" src="/tararainbow.jpeg"></img>
+      {/* <h1>home</h1> */}
+      <p>Signature bigger on this page</p>
       <p>about section</p>
       <style jsx>{`
         .bio-pic {

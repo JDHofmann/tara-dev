@@ -39,7 +39,7 @@ export default function Menu(props){
             </ul>
             <style jsx>{`
                 nav {
-                    background: #262626a0;
+                    background: #262626e0;
                     position: fixed;
                     top: 75px;
                     left: 0;
@@ -66,7 +66,7 @@ export default function Menu(props){
                     list-style-type: none;
                     text-align: center;
                     margin: 1.5vh auto;
-                    font-size: 4vmin;
+                    font-size: 3vmin;
                     letter-spacing: .5vmin;
                     text-indent: .5vmin;
                     width: 100%;
@@ -87,7 +87,6 @@ export default function Menu(props){
                     background: #ffffff;
                     transition: .3s;
                 }
-                  
                 .menu-link:hover::after, .menu-link :focus::after {
                     width: 100%;
                 }
