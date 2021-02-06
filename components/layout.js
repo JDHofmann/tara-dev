@@ -7,17 +7,25 @@ export default function Layout({children})
     return (
         <>
             <Head>
-                <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"></link>
+            <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+            <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Playfair+Display:wght@400;600&family=Questrial&family=Spartan:wght@200;400;600&display=swap" rel="stylesheet"></link>
             </Head>
             <Header />
-            <div>
+            <div className="sig">Signature</div>
+            <div className="main">
                 {children}
             </div>
             <Footer />
             <style jsx>{`
-                div {
+                .main {
                     min-height: calc(100vh - 150px);
                     padding: 0 20px;
+                }
+                .sig {
+                    text-align: center;
+                    width: 100%;
+                    font-size: 5vmin;
+                    padding: 2.5vmin 0;
                 }
             `}</style>
         </>

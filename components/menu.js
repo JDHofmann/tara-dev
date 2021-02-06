@@ -17,20 +17,20 @@ export default function Menu(props){
                     </Link>
                 </li>
                 <li>
-                    <Link href="/make">
-                        <a className="menu-link">make</a>
-                    </Link>
-                </li>
-                <li>
                     <Link href="/sing">
                         <a className="menu-link">sing</a>
                     </Link>
                 </li>
                 <li>
+                    <Link href="/make">
+                        <a className="menu-link">make</a>
+                    </Link>
+                </li>
+                {/* <li>
                     <Link href="/about">
                         <a className="menu-link">about</a>
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link href="/contact">
                         <a className="menu-link">contact</a>

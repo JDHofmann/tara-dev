@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         <footer>
-            <p>Made with love by JDBH</p>
+            <p>made with love by JDBH</p>
             <style jsx>{`
                 footer {
                     height: 75px;
