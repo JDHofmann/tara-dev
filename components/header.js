@@ -1,9 +1,12 @@
 import Menu from "./menu";
 import React, { useState } from 'react';
+import { useRouter } from 'next/router'
+
 
 export default function Header(){
 
     const [menuOpen, setMenuOpen] = useState(false)
+    let location = useRouter().pathname;
 
     return(
         <header>
@@ -15,6 +18,12 @@ export default function Header(){
                 <span className="second-span"></span>
                 <span></span>
             </button>
+            { location === "/" ? null :
+            <img 
+                className="sig"
+                src="/signature.png"
+            ></img>
+            }
             <Menu 
                 active={menuOpen? "true" : "false"}
             />
@@ -68,6 +77,16 @@ export default function Header(){
                 .burger-btn-active span:nth-child(3){
                     transform: rotate(-0.125turn);
                     bottom: 15px;
+                }
+                .sig {
+                    display: inline-block;
+                    width: 40%;
+                    max-width: 500px;
+                    min-width: 250px;
+                    margin: 20px auto;
+                    padding: 2.5vmin 0;
+                    height: 35px;
+                    padding: 0;
                 }
             `}</style>
         </header>
