@@ -19,7 +19,7 @@ export default function Home() {
           display: block;
           max-width: 500px;
           margin: 2vh auto;
-          border-radius: 5px;
+          border-radius: 10px;
         }
         .big-sig {
           display: block;

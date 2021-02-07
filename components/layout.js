@@ -21,7 +21,7 @@ export default function Layout({children})
                     padding: 0 20px;
                     width: 100%;
                     max-width: 1000px;
-                    margin: 0 auto;
+                    margin: 25px auto;
                 }
             `}</style>
         </>

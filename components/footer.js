@@ -14,6 +14,7 @@ export default function Footer(){
                 p {
                     background: inherit;
                     color: #101010;
+                    font-size: 12px;
                 }
             `}</style>
         </footer>
