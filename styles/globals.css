@@ -10,7 +10,9 @@ body {
 h1 {
   font-family: 'Playfair Display', serif;
   font-family: 'Spartan', sans-serif;
-  margin: 2vh auto;
+  margin: 0 auto 5vmin;
+  letter-spacing: .5vmin;
+  text-indent: .5vmin;
 }
 
 a {

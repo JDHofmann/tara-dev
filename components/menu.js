@@ -67,6 +67,7 @@ export default function Menu(props){
                     text-align: center;
                     margin: 1.5vh auto;
                     font-size: 3vmin;
+                    font-size: calc(17px + (24 - 17) * ((100vmin - 320px) / (1200 - 320)));
                     letter-spacing: .5vmin;
                     text-indent: .5vmin;
                     width: 100%;
