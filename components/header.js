@@ -28,11 +28,17 @@ export default function Header(){
                 active={menuOpen? "true" : "false"}
             />
             <style jsx>{`
+                header {
+                    height: 75px;
+                    display: grid;
+                    grid-template-columns: 75px 1fr;
+                    justify-items: center;
+                    align-items: center;
+                }
+
                 .burger-btn {
                     width: 35px;
                     height: 35px;
-                    margin: 20px;
-                    padding: 0;
                     border: none;
                     position: relative;
                 }
@@ -80,13 +86,10 @@ export default function Header(){
                 }
                 .sig {
                     display: inline-block;
+                    height: 35px;
                     width: 40%;
                     max-width: 500px;
                     min-width: 250px;
-                    margin: 20px auto;
-                    padding: 2.5vmin 0;
-                    height: 35px;
-                    padding: 0;
                 }
             `}</style>
         </header>
