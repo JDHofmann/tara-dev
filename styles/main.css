@@ -76,8 +76,10 @@ header {
 .burger-btn span {
   display: block;
   width: 35px;
-  height: 5px;
-  background: #ff40ff;
+  height: 4px;
+  background: #e058ff;
+  -webkit-box-shadow: 0 0 5px #E98AFF;
+          box-shadow: 0 0 5px #E98AFF;
   border-radius: 2px;
   -webkit-transition: .65s;
   transition: .65s;
@@ -91,7 +93,7 @@ header {
 .burger-btn span:nth-child(2) {
   width: 25px;
   left: 0;
-  top: 15px;
+  top: 16px;
 }
 
 .burger-btn span:nth-child(3) {
@@ -127,7 +129,7 @@ header {
 }
 
 .main {
-  min-height: calc(100vh - 150px);
+  min-height: calc(100vh - 300px);
   padding: 0 20px;
   width: 100%;
   max-width: 1000px;
@@ -185,6 +187,8 @@ nav ul li {
   height: 1px;
   display: block;
   background: #ffffff;
+  -webkit-box-shadow: 0 0 5px #E98AFF;
+          box-shadow: 0 0 5px #E98AFF;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -195,7 +199,7 @@ nav ul li {
 
 footer {
   height: 75px;
-  background: #ff40ff;
+  background: #e058ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

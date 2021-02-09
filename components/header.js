@@ -10,7 +10,9 @@ export default function Header(){
 
     return(
         <header>
-            <button 
+            <button
+                name="menu"
+                title="menu"
                 onClick={() => setMenuOpen(!menuOpen)}
                 className={menuOpen ? "burger-btn burger-btn-active" : "burger-btn"}
                 >
