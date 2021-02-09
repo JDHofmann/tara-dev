@@ -1,0 +1,13 @@
+footer {
+    height: 75px;
+    background: $highlight;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    p {
+        background: inherit;
+        color: #101010;
+        font-size: 12px;
+    }
+}

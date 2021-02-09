@@ -21,7 +21,7 @@ header {
     display: block;
     width: 35px;
     height: 5px;
-    background: #ff40ff;
+    background: $highlight;
     border-radius: 2px;
     transition: .65s;
     position: absolute;

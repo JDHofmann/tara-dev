@@ -1,13 +1,21 @@
-@import 'index';
+@import 
+    'abstract/variables';
+
+@import 
+    'pages/index',
+    'pages/write';
 @import 
     'components/header',
-    'components/layout';
+    'components/layout',
+    'components/menu',
+    'components/footer';
 
 html,
 body {
     padding: 0;
     margin: 0;
     font-family: 'Spartan', sans-serif;
+    color: #ffffff;
 }
 
 h1 {

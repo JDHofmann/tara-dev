@@ -15,6 +15,45 @@
   min-width: 300px;
 }
 
+.platform-item h2 {
+  color: #f0f0f0;
+  font-weight: 500;
+  padding: .5em 0;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Lexend Mega', sans-serif;
+  font-family: 'Spartan', sans-serif;
+}
+
+.platform-item h2::after {
+  content: " - ";
+}
+
+.article-item {
+  color: #f0f0f0;
+  font-weight: 200;
+  text-align: right;
+}
+
+.article-item a {
+  display: inline-block;
+  padding: .5em 0;
+  margin-bottom: 5px;
+}
+
+.article-item a::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #f0f0f0;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.article-item a:hover::after, .article-item a:focus::after {
+  width: 100%;
+}
+
 header {
   height: 75px;
   display: -ms-grid;
@@ -95,11 +134,92 @@ header {
   margin: 75px auto;
 }
 
+nav {
+  background: #262626e0;
+  position: fixed;
+  top: 75px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 75px);
+  -webkit-transition: 1s;
+  transition: 1s;
+  z-index: 300;
+}
+
+.nav-hidden {
+  left: 100%;
+}
+
+nav ul {
+  min-width: 275px;
+  width: 60vw;
+  max-width: 600px;
+  margin: 5vh auto;
+  padding: 10vh 0;
+  border-radius: 5px;
+}
+
+nav ul li {
+  list-style-type: none;
+  text-align: center;
+  margin: 1.5vh auto;
+  font-size: 3vmin;
+  font-size: calc(17px + (24 - 17) * ((100vmin - 320px) / (1200 - 320)));
+  letter-spacing: .5vmin;
+  text-indent: .5vmin;
+  width: 100%;
+}
+
+.menu-link {
+  -webkit-transition: .3s;
+  transition: .3s;
+  text-decoration: none;
+  color: inherit;
+  color: #ffffff;
+  margin: 1px;
+}
+
+.menu-link::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #ffffff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.menu-link:hover::after, .menu-link :focus::after {
+  width: 100%;
+}
+
+footer {
+  height: 75px;
+  background: #ff40ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+footer p {
+  background: inherit;
+  color: #101010;
+  font-size: 12px;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Spartan', sans-serif;
+  color: #ffffff;
 }
 
 h1 {

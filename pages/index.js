@@ -1,5 +1,3 @@
-// import '../public/tararainbow'
-
 import Layout from "../components/layout";
 
 export default function Home() {
