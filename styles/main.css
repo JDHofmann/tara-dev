@@ -78,8 +78,6 @@ header {
   width: 35px;
   height: 4px;
   background: #e058ff;
-  -webkit-box-shadow: 0 0 5px #E98AFF;
-          box-shadow: 0 0 5px #E98AFF;
   border-radius: 2px;
   -webkit-transition: .65s;
   transition: .65s;
