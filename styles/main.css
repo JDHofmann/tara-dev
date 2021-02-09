@@ -1,0 +1,127 @@
+.bio-pic {
+  width: 100%;
+  display: block;
+  max-width: 500px;
+  margin: 2vh auto;
+  border-radius: 10px;
+}
+
+.big-sig {
+  display: block;
+  margin: 0 auto;
+  padding: 2.5vmin 0;
+  width: 80%;
+  max-width: 800px;
+  min-width: 300px;
+}
+
+header {
+  height: 75px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75px 1fr;
+      grid-template-columns: 75px 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.burger-btn {
+  width: 35px;
+  height: 35px;
+  border: none;
+  position: relative;
+}
+
+.burger-btn-active {
+  display: block;
+}
+
+.burger-btn span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background: #ff40ff;
+  border-radius: 2px;
+  -webkit-transition: .65s;
+  transition: .65s;
+  position: absolute;
+}
+
+.burger-btn span:nth-child(1) {
+  top: 0;
+}
+
+.burger-btn span:nth-child(2) {
+  width: 25px;
+  left: 0;
+  top: 15px;
+}
+
+.burger-btn span:nth-child(3) {
+  bottom: 0;
+}
+
+.burger-btn-active span:nth-child(1) {
+  -webkit-transform: rotate(0.125turn);
+          transform: rotate(0.125turn);
+  top: 15px;
+}
+
+.burger-btn-active span:nth-child(2) {
+  left: -100px;
+}
+
+.burger-btn-active span:nth-child(3) {
+  -webkit-transform: rotate(-0.125turn);
+          transform: rotate(-0.125turn);
+  bottom: 15px;
+}
+
+.sig {
+  display: inline-block;
+  height: 35px;
+  width: 40%;
+  max-width: 500px;
+  min-width: 250px;
+}
+
+.main {
+  min-height: calc(100vh - 150px);
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 75px auto;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Spartan', sans-serif;
+  margin: 0 auto 5vmin;
+  letter-spacing: .5vmin;
+  text-indent: .5vmin;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #202020;
+  color: #ffffff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */

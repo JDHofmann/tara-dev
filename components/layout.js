@@ -15,15 +15,6 @@ export default function Layout({children})
                 {children}
             </div>
             <Footer />
-            <style jsx>{`
-                .main {
-                    min-height: calc(100vh - 150px);
-                    padding: 0 20px;
-                    width: 100%;
-                    max-width: 1000px;
-                    margin: 75px auto;
-                }
-            `}</style>
         </>
     )
 }
