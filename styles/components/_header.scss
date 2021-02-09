@@ -11,49 +11,43 @@ header {
     height: 35px;
     border: none;
     position: relative;
+    span {
+        display: block;
+        width: 35px;
+        height: 5px;
+        background: $highlight;
+        border-radius: 2px;
+        transition: .65s;
+        position: absolute;
+    }
+    span:nth-child(1) {
+        top: 0;
+    }
+    span:nth-child(2) {
+        width: 25px;
+        left: 0;
+        top: 15px;
+    }
+    span:nth-child(3) {
+        bottom: 0;
+    }
 }
 
 .burger-btn-active {
     display: block;
+    span:nth-child(1){
+        transform: rotate(0.125turn);
+        top: 15px;
+    }
+    span:nth-child(2) {
+        left: -100px;
+    }
+    span:nth-child(3){
+        transform: rotate(-0.125turn);
+        bottom: 15px;
+    }
 }
 
-.burger-btn span {
-    display: block;
-    width: 35px;
-    height: 5px;
-    background: $highlight;
-    border-radius: 2px;
-    transition: .65s;
-    position: absolute;
-}
-
-.burger-btn span:nth-child(1) {
-    top: 0;
-}
-
-.burger-btn span:nth-child(2) {
-    width: 25px;
-    left: 0;
-    top: 15px;
-}
-
-.burger-btn span:nth-child(3) {
-    bottom: 0;
-}
-
-.burger-btn-active span:nth-child(1){
-    transform: rotate(0.125turn);
-    top: 15px;
-}
-
-.burger-btn-active span:nth-child(2) {
-    left: -100px;
-}
-
-.burger-btn-active span:nth-child(3){
-    transform: rotate(-0.125turn);
-    bottom: 15px;
-}
 .sig {
     display: inline-block;
     height: 35px;

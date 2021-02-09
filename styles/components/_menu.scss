@@ -39,15 +39,15 @@ nav ul li {
     color: inherit;
     color: #ffffff;
     margin: 1px;
-}
-.menu-link::after {
-    content: '';
-    width: 0px;
-    height: 1px;
-    display: block;
-    background: #ffffff;
-    transition: .3s;
-}
-.menu-link:hover::after, .menu-link :focus::after {
-    width: 100%;
+    &::after {
+        content: '';
+        width: 0px;
+        height: 1px;
+        display: block;
+        background: #ffffff;
+        transition: .3s;
+    }
+    &:hover::after, &:focus::after {
+        width: 100%;
+    }
 }

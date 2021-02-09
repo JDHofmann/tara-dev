@@ -5,10 +5,11 @@
     font-family: 'Playfair Display', serif;
     font-family: 'Lexend Mega', sans-serif;
     font-family: 'Spartan', sans-serif;
+    &::after {
+        content: " - ";
+    }
 }
-.platform-item h2::after {
-    content: " - ";
-}
+
 .article-item {
     color: #f0f0f0;
     font-weight: 200;
@@ -18,16 +19,15 @@
     display: inline-block;
     padding: .5em 0;
     margin-bottom: 5px;
-}
-.article-item a::after {
-    content: '';
-    width: 0px;
-    height: 1px;
-    display: block;
-    background: #f0f0f0;
-    transition: 300ms;
-}
-  
-.article-item a:hover::after, .article-item a:focus::after {
-    width: 100%;
+    &::after {
+        content: '';
+        width: 0px;
+        height: 1px;
+        display: block;
+        background: #f0f0f0;
+        transition: 300ms;
+    }
+    &:hover::after, &:focus::after {
+        width: 100%;
+    }
 }
