@@ -185,8 +185,6 @@ nav ul li {
   height: 1px;
   display: block;
   background: #ffffff;
-  -webkit-box-shadow: 0 0 5px #E98AFF;
-          box-shadow: 0 0 5px #E98AFF;
   -webkit-transition: .3s;
   transition: .3s;
 }
