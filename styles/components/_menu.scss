@@ -45,7 +45,6 @@ nav ul li {
         height: 1px;
         display: block;
         background: #ffffff;
-        box-shadow: 0 0 5px $highlight-lighter;
         transition: .3s;
     }
     &:hover::after, &:focus::after {
