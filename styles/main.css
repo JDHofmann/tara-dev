@@ -84,6 +84,7 @@ header {
   width: 35px;
   height: 4px;
   background: #e058ff;
+  background: #ffffff;
   border-radius: 2px;
   -webkit-transition: .65s;
   transition: .65s;
@@ -102,6 +103,10 @@ header {
 
 .burger-btn span:nth-child(3) {
   bottom: 0;
+}
+
+.burger-btn:hover span, .burger-btn:focus span {
+  background: #e058ff;
 }
 
 .burger-btn-active {

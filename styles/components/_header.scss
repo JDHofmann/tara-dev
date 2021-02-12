@@ -16,6 +16,7 @@ header {
         width: 35px;
         height: 4px;
         background: $highlight;
+        background: #ffffff;
         border-radius: 2px;
         transition: .65s;
         position: absolute;
@@ -30,6 +31,9 @@ header {
     }
     span:nth-child(3) {
         bottom: 0;
+    }
+    &:hover span, &:focus span{
+        background: $highlight;
     }
 }
 
