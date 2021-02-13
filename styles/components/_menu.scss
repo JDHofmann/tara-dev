@@ -23,11 +23,10 @@ nav ul {
 }
 
 nav ul li {
+    @include fluid-text(17, 24);
     list-style-type: none;
     text-align: center;
     margin: 1.5vh auto;
-    font-size: 3vmin;
-    font-size: calc(17px + (24 - 17) * ((100vmin - 320px) / (1200 - 320)));
     letter-spacing: .5vmin;
     text-indent: .5vmin;
     width: 100%;
@@ -37,14 +36,14 @@ nav ul li {
     transition: .3s;
     text-decoration: none;
     color: inherit;
-    color: #ffffff;
+    color: $white-0;
     margin: 1px;
     &::after {
         content: '';
         width: 0px;
         height: 1px;
         display: block;
-        background: #ffffff;
+        background: $white-0;
         transition: .3s;
     }
     &:hover::after, &:focus::after {

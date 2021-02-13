@@ -1,13 +1,16 @@
 footer {
     height: 75px;
     background: $highlight;
+    // background: #a0a0a0;
+    background: $black-1;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     p {
         background: inherit;
-        color: #101010;
+        // color: #101010;
+        color: $white-0;
         font-size: 12px;
     }
 }

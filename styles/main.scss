@@ -1,5 +1,6 @@
 @import 
-    'abstract/variables';
+    'abstract/variables',
+    'abstract/mixins';
 
 @import 
     'pages/index',
@@ -15,15 +16,17 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Spartan', sans-serif;
-    color: #ffffff;
+    color: $white-0;
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    @include fluid-text(26, 32);
     font-family: 'Spartan', sans-serif;
+    font-weight: 200;
     margin: 0 auto 5vmin;
     letter-spacing: .5vmin;
-    text-indent: .5vmin;
+    color: $highlight-lighter;
+   
 }
 
 a {
@@ -33,8 +36,8 @@ a {
 
 * {
     box-sizing: border-box;
-    background: #202020;
-    color: #ffffff;
+    background: $black-0;
+    color: $white-0;
     list-style: none;
     padding: 0;
     margin: 0;

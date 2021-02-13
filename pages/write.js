@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 export default function Write() {
     return(
         <Layout>
-            <h1>write</h1>
+            {/* <h1>write</h1> */}
             <ul className="platform-list">
                 <li className="platform-item">
                     <h2>Echoes</h2>
