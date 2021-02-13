@@ -20,16 +20,18 @@
 }
 
 .bio-text {
-  font-size: calc(14px + (20 - 14) * ((100vmin - 320px) / (1200 - 320)));
+  font-size: calc( 14px + 6 * ((100vmin - 320px) / (1200 - 320)));
   line-height: 2em;
 }
 
 .platform-item {
-  margin: 5vh auto;
+  margin: 2.5vh auto;
+  padding: 2.5vh 0;
+  border-bottom: 1px solid #808080;
 }
 
 .platform-item h2 {
-  font-size: calc( 20px + 6 * ((100vmin - 320px) / (1200 - 320)));
+  font-size: calc( 20px + 4 * ((100vmin - 320px) / (1200 - 320)));
   color: #f0f0f0;
   font-weight: 500;
   padding: .5em 0;
@@ -224,6 +226,7 @@ footer {
   height: 75px;
   background: #e058ff;
   background: #a0a0a0;
+  background: #404040;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -239,6 +242,7 @@ footer {
 footer p {
   background: inherit;
   color: #101010;
+  color: #ffffff;
   font-size: 12px;
 }
 

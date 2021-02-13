@@ -2,6 +2,7 @@ footer {
     height: 75px;
     background: $highlight;
     background: #a0a0a0;
+    background: #404040;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +10,7 @@ footer {
     p {
         background: inherit;
         color: #101010;
+        color: #ffffff;
         font-size: 12px;
     }
 }

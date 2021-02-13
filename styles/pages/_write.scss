@@ -1,7 +1,9 @@
 .platform-item {
-    margin: 5vh auto;
+    margin: 2.5vh auto;
+    padding: 2.5vh 0;
+    border-bottom: 1px solid #808080;
     h2 {
-        @include fluid-text(20, 26);
+        @include fluid-text(20, 24);
         color: #f0f0f0;
         font-weight: 500;
         padding: .5em 0;

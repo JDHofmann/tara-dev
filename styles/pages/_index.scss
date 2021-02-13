@@ -17,6 +17,6 @@
     min-width: 300px;
 }
 .bio-text {
-    font-size: calc(14px + (20 - 14) * ((100vmin - 320px) / (1200 - 320)));
+    @include fluid-text(14, 20);
     line-height: 2em;
 }
