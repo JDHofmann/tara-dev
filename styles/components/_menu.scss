@@ -36,14 +36,14 @@ nav ul li {
     transition: .3s;
     text-decoration: none;
     color: inherit;
-    color: #ffffff;
+    color: $white-0;
     margin: 1px;
     &::after {
         content: '';
         width: 0px;
         height: 1px;
         display: block;
-        background: #ffffff;
+        background: $white-0;
         transition: .3s;
     }
     &:hover::after, &:focus::after {

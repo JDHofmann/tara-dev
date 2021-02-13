@@ -94,7 +94,6 @@ header {
   display: block;
   width: 35px;
   height: 4px;
-  background: #ff94e1;
   background: #ffffff;
   border-radius: 2px;
   -webkit-transition: .65s;
@@ -225,7 +224,6 @@ nav ul li {
 footer {
   height: 75px;
   background: #e058ff;
-  background: #a0a0a0;
   background: #404040;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -241,7 +239,6 @@ footer {
 
 footer p {
   background: inherit;
-  color: #101010;
   color: #ffffff;
   font-size: 12px;
 }

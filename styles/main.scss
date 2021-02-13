@@ -16,7 +16,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Spartan', sans-serif;
-    color: #ffffff;
+    color: $white-0;
 }
 
 h1 {
@@ -36,8 +36,8 @@ a {
 
 * {
     box-sizing: border-box;
-    background: #303030;
-    color: #ffffff;
+    background: $black-0;
+    color: $white-0;
     list-style: none;
     padding: 0;
     margin: 0;
