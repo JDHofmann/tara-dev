@@ -1,9 +1,10 @@
 .bio-pic {
-    width: 100%;
+    width: 50%;
     display: block;
-    max-width: 500px;
-    margin: 2vh auto;
-    border-radius: 10px;
+    max-width: 300px;
+    margin: 5vh auto;
+    border-radius: 50%;
+    filter: grayscale(.35);
 }
 .big-sig {
     display: block;
@@ -17,4 +18,5 @@
 }
 .bio-text {
     font-size: calc(14px + (20 - 14) * ((100vmin - 320px) / (1200 - 320)));
+    line-height: 2em;
 }

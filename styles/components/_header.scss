@@ -15,7 +15,7 @@ header {
         display: block;
         width: 35px;
         height: 4px;
-        background: $highlight;
+        background: $highlight-lighter;
         background: #ffffff;
         border-radius: 2px;
         transition: .65s;
@@ -33,7 +33,7 @@ header {
         bottom: 0;
     }
     &:hover span, &:focus span{
-        background: $highlight;
+        background: $highlight-lighter;
     }
 }
 

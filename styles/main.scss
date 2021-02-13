@@ -19,11 +19,13 @@ body {
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
     font-family: 'Spartan', sans-serif;
+    font-weight: 200;
     margin: 0 auto 5vmin;
     letter-spacing: .5vmin;
-    text-indent: .5vmin;
+    // text-indent: .5vmin;
+    color: $highlight-lighter;
+    font-size: calc(26px + (32 - 26) * ((100vmin - 320px) / (1200 - 320)));
 }
 
 a {
@@ -33,7 +35,7 @@ a {
 
 * {
     box-sizing: border-box;
-    background: #202020;
+    background: #303030;
     color: #ffffff;
     list-style: none;
     padding: 0;

@@ -1,0 +1,4 @@
+@mixin fluid-text($font-min, $font-max){
+    font-size: calc(
+      #{$font-min}px + #{($font-max - $font-min)} * ((100vmin - 320px) / (1200 - 320)));
+}

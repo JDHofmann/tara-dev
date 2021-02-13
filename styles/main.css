@@ -1,9 +1,11 @@
 .bio-pic {
-  width: 100%;
+  width: 50%;
   display: block;
-  max-width: 500px;
-  margin: 2vh auto;
-  border-radius: 10px;
+  max-width: 300px;
+  margin: 5vh auto;
+  border-radius: 50%;
+  -webkit-filter: grayscale(0.35);
+          filter: grayscale(0.35);
 }
 
 .big-sig {
@@ -19,6 +21,11 @@
 
 .bio-text {
   font-size: calc(14px + (20 - 14) * ((100vmin - 320px) / (1200 - 320)));
+  line-height: 2em;
+}
+
+.platform-item {
+  margin: 5vh auto;
 }
 
 .platform-item h2 {
@@ -83,7 +90,7 @@ header {
   display: block;
   width: 35px;
   height: 4px;
-  background: #e058ff;
+  background: #ff94e1;
   background: #ffffff;
   border-radius: 2px;
   -webkit-transition: .65s;
@@ -106,7 +113,7 @@ header {
 }
 
 .burger-btn:hover span, .burger-btn:focus span {
-  background: #e058ff;
+  background: #ff94e1;
 }
 
 .burger-btn-active {
@@ -143,6 +150,14 @@ header {
   width: 100%;
   max-width: 1000px;
   margin: 75px auto;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+@media screen and (min-width: 500px) {
+  .main {
+    padding: 0 55px;
+  }
 }
 
 nav {
@@ -207,6 +222,7 @@ nav ul li {
 footer {
   height: 75px;
   background: #e058ff;
+  background: #a0a0a0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,11 +250,12 @@ body {
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
   font-family: 'Spartan', sans-serif;
+  font-weight: 200;
   margin: 0 auto 5vmin;
   letter-spacing: .5vmin;
-  text-indent: .5vmin;
+  color: #ff94e1;
+  font-size: calc(26px + (32 - 26) * ((100vmin - 320px) / (1200 - 320)));
 }
 
 a {
@@ -249,7 +266,7 @@ a {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #202020;
+  background: #303030;
   color: #ffffff;
   list-style: none;
   padding: 0;
