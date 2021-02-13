@@ -1,5 +1,6 @@
 @import 
-    'abstract/variables';
+    'abstract/variables',
+    'abstract/mixins';
 
 @import 
     'pages/index',
@@ -19,13 +20,13 @@ body {
 }
 
 h1 {
+    @include fluid-text(26, 32);
     font-family: 'Spartan', sans-serif;
     font-weight: 200;
     margin: 0 auto 5vmin;
     letter-spacing: .5vmin;
-    // text-indent: .5vmin;
     color: $highlight-lighter;
-    font-size: calc(26px + (32 - 26) * ((100vmin - 320px) / (1200 - 320)));
+   
 }
 
 a {

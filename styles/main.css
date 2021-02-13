@@ -29,6 +29,7 @@
 }
 
 .platform-item h2 {
+  font-size: calc( 20px + 6 * ((100vmin - 320px) / (1200 - 320)));
   color: #f0f0f0;
   font-weight: 500;
   padding: .5em 0;
@@ -48,6 +49,7 @@
 }
 
 .article-item a {
+  font-size: calc( 14px + 4 * ((100vmin - 320px) / (1200 - 320)));
   display: inline-block;
   padding: .5em 0;
   margin-bottom: 5px;
@@ -186,11 +188,10 @@ nav ul {
 }
 
 nav ul li {
+  font-size: calc( 17px + 7 * ((100vmin - 320px) / (1200 - 320)));
   list-style-type: none;
   text-align: center;
   margin: 1.5vh auto;
-  font-size: 3vmin;
-  font-size: calc(17px + (24 - 17) * ((100vmin - 320px) / (1200 - 320)));
   letter-spacing: .5vmin;
   text-indent: .5vmin;
   width: 100%;
@@ -250,12 +251,12 @@ body {
 }
 
 h1 {
+  font-size: calc( 26px + 6 * ((100vmin - 320px) / (1200 - 320)));
   font-family: 'Spartan', sans-serif;
   font-weight: 200;
   margin: 0 auto 5vmin;
   letter-spacing: .5vmin;
   color: #ff94e1;
-  font-size: calc(26px + (32 - 26) * ((100vmin - 320px) / (1200 - 320)));
 }
 
 a {

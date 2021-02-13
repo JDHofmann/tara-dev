@@ -1,6 +1,7 @@
 .platform-item {
     margin: 5vh auto;
     h2 {
+        @include fluid-text(20, 26);
         color: #f0f0f0;
         font-weight: 500;
         padding: .5em 0;
@@ -19,6 +20,7 @@
     text-align: right;
 }
 .article-item a {
+    @include fluid-text(14, 18);
     display: inline-block;
     padding: .5em 0;
     margin-bottom: 5px;
