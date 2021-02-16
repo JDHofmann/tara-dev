@@ -3,8 +3,9 @@
     display: block;
     max-width: 300px;
     margin: 5vh auto;
-    border-radius: 50%;
-    filter: grayscale(.35);
+    // filter: grayscale(.25);
+    // clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    
 }
 .big-sig {
     display: block;

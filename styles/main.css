@@ -3,9 +3,6 @@
   display: block;
   max-width: 300px;
   margin: 5vh auto;
-  border-radius: 50%;
-  -webkit-filter: grayscale(0.35);
-          filter: grayscale(0.35);
 }
 
 .big-sig {
